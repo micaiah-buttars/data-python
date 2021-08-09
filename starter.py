@@ -58,7 +58,7 @@ for num in numbers:
 even_numbers = []
 
 for num in numbers:
-    if(num % 2 == 0):
+    if num % 2 == 0:
         even_numbers.append(num)
 
 # Problem 10
@@ -122,6 +122,8 @@ print(friends)
 # Problem 15
 # Remove the last item in the array (try to think about how you can do this dynamically, meaning, if the array contents were to change, your code would still work).
 
-del friends[-1]
+# del friends[-1]
+
+friends.pop()
 
 print(friends)
